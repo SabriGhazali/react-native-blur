@@ -10,6 +10,7 @@ buildscript {
         repositories {
             google()
             jcenter()
+            maven { url 'https://jitpack.io' }
         }
 
         dependencies {
@@ -43,5 +44,5 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.eightbitlab:blurview:1.6.3'
+    implementation 'com.github.SabriGhazali:BlurView:995ef6c66f'
 }
